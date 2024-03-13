@@ -36,7 +36,7 @@ export default function Footer() {
             {/* <Button href="https://www.instagram.com/racmathafidz/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
               Instagram
             </Button> */}
-            <Button href="https://www.linkedin.com/in/racmat-hafidz-89982a156/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
+            <Button href="https://www.linkedin.com/in/dyl-group-tech-a373b62ba/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
               LinkedIn
             </Button>
             {/* <Button href="https://github.com/racmathafidz" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
