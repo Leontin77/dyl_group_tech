@@ -8,10 +8,10 @@ export default function Footer() {
   return (
     <div className="bg-gray-50 border-t border-gray-200 pb-6">
       <div className="container flex-col mx-auto ">
-        <div className="flex flex-col sm:flex-row mt-8 justify-center">
+        <div className="flex flex-col sm:flex-row mt-8 mb-12 justify-center">
           <div className="w-1/3 flex-col ml-16 mr-8">
             <BrandIcon />
-            <p className="w-full text-lg text-gray-400 font-light">
+            <p className="w-full mt-4 text-lg text-gray-400 font-light">
               Sealing the Deal
               {' '}
               <br />
@@ -19,23 +19,23 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+            <h1 className="text-xl text-theme-blue pt-4 pb-5">
               Office
             </h1>
-            <p className="text-lg text-gray-400 font-light">
-              {/* rac.hafidz@gmail.com */}
-            </p>
-            <p className="text-lg text-gray-400 font-light">
+            <a href="mailto:dyl.group.tech@ukr.net" className="text-lg text-gray-400 font-light hover:underline">
+              dyl.group.tech@ukr.net
+            </a>
+            <p className="text-lg mt-2 text-gray-400 font-light">
               Lviv, Ukraine
             </p>
           </div>
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+            <h1 className="text-xl text-theme-blue pt-4 pb-5">
               Social
             </h1>
-            <Button href="https://www.instagram.com/racmathafidz/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
+            {/* <Button href="https://www.instagram.com/racmathafidz/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
               Instagram
-            </Button>
+            </Button> */}
             <Button href="https://www.linkedin.com/in/racmat-hafidz-89982a156/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
               LinkedIn
             </Button>

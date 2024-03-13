@@ -7,7 +7,7 @@ import Button from 'elements/Button';
 
 // import BuildWebsite from 'assets/images/Startup.png';
 
-import Logo from 'assets/images/DYLlogo.png';
+import Logo from 'assets/images/DYLLLLL.png';
 
 export default function Hero() {
   return (
