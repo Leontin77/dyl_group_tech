@@ -119,6 +119,26 @@
                 "Redux"
             ],
             "descr": "A complex B2B, and B2C platform for sport and casino betting targeted for the Indian and Hong Kong markets. The client, a startup in the online betting industry, approached our development team with the vision of creating a betting platform that would offer users a wide range of sports events, real-time odds, secure payment options, and a user-friendly interface. The project required a robust, scalable, and responsive application to cater to a diverse audience of sports enthusiasts."
+        },
+        {
+            "id": "aws-audit",
+            "title": "Aws-Audit",
+            "imageUrl": "assets/images/audit.jpeg",
+            "type": "Website",
+            "responsibility": [
+                "Web Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://www.aws-cloud-audit.com/",
+            "stack": [
+                "JavaScript",
+                "React",
+                "Redux",
+                "Tailwind CSS",
+                "DaisyUI",
+                "ChartJS"
+            ],
+            "descr": "The Amazon AWS Audit Dashboard website provides a centralized platform for monitoring and analyzing security events within AWS, enabling administrators to track user activities, resource changes, and potential risks in real-time."
         }
     ],
     "advantage": [
@@ -151,16 +171,16 @@
             "imageUrl": "assets/images/Sasha.jpg"
         },
         {
-            "name": "Kruger Khan",
-            "company": "Director, Shultan Oil",
+            "name": "Yevheniy Lukashov",
+            "company": "CEO Aws-Audit",
             "testimoni": "I just wanted to let you know that it’s been great working with DYLGroupTech.",
-            "imageUrl": "assets/images/Kruger.jpg"
+            "imageUrl": "assets/images/lukashov.png"
         },
         {
-            "name": "Reiner John",
-            "company": "CEO, Marley CO",
-            "testimoni": "DYLGroupTech is so great. Thank you so much for a job well done.",
-            "imageUrl": "assets/images/Reiner.jpg"
+            "name": "Volodymyr Dombrovskyi",
+            "company": "CEO",
+            "testimoni": "DYLGroupTech is so great. Thank you for your help! Fast delivery and good quality of the code. I can recommend DYLGroupTech as a Vue.js developer!",
+            "imageUrl": "assets/images/Volodyko.webp"
         }
     ],
     "team": [
@@ -228,6 +248,14 @@
         },
         {
             "name": "Tailwind CSS",
+            "type": "UI"
+        },
+        {
+            "name": "DaisyUI",
+            "type": "UI"
+        },
+        {
+            "name": "ChartJS",
             "type": "UI"
         },
         {

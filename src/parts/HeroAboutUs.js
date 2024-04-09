@@ -19,7 +19,7 @@ export default function HeroAboutUs() {
           </p>
         </div>
         <div className="w-full sm:w-1/2 sm:pr-12">
-          <div className="flex flex-wrap mt-20" style={{ width: '520px' }}>
+          <div className="flex flex-wrap mt-20 w-full justify-center">
             <div className="h-40 border-2 flex justify-center items-center flex-row px-5 py-5 gap-5" style={{ width: '260px' }}>
               <h1 className="text-4xl text-theme-blue font-bold leading-tight">3+</h1>
               <p className="font-light text-xl text-400 text-theme-blue leading-relaxed text-center">Years of comercial experience</p>

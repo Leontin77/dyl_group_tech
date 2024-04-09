@@ -29,8 +29,8 @@ export default function DiscussForm(props) {
     };
   
     const token = '6794741695:AAEbHg9H5Jy03JbbuejzkaChh_-y71H5nBA';
-    // const chatId = ['552161534', '582889678', '877649424'];
-    const chatId = ['582889678'];
+    const chatId = ['552161534', '582889678', '877649424'];
+    // const chatId = ['582889678'];
     const text = `From: ${name}, Company: ${company}, Email: ${email}, Phone: ${phone}, Project Idea: ${projectIdea}`;
   
     console.log('templateParams', templateParams);

@@ -111,7 +111,7 @@ export default function Header(props) {
               <Button
                 className={`${path === '/about' ? 'active-link' : ''} px-10 no-underline hover:underline`}
                 type="link"
-                href="/about"
+                href="/project"
               >
                 Project
               </Button>
@@ -120,7 +120,7 @@ export default function Header(props) {
               <Button
                 className={`${path === '/project' ? 'active-link' : ''} px-10 no-underline hover:underline`}
                 type="link"
-                href="/project"
+                href="/about"
               >
                 About Us
               </Button>
