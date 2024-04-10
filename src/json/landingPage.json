@@ -55,7 +55,7 @@
         {
             "id": "shootmode",
             "title": "Shootmode",
-            "imageUrl": "assets/images/shootWebsite.png",
+            "imageUrl": "assets/images/ShootWebsite.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -106,7 +106,7 @@
         {
             "id": "aura",
             "title": "Aura",
-            "imageUrl": "assets/images/aura.png",
+            "imageUrl": "assets/images/Aura.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
