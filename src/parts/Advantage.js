@@ -22,8 +22,11 @@ export default function Advantage({ data }) {
                         data[0].map((item, index) => (
                           <Fade bottom delay={500 * index}>
                             <div>
-                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-blue transform transition duration-500 hover:scale-105" style={{ height: '211px' }}>
-                                <img src={item.imageUrl} alt="" className="w-1/3" style={{ width: '185px', height: '140px' }} />
+                              <div
+                                  className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-blue transform transition duration-500 hover:scale-105"
+                                  style={{height: '211px'}}>
+                                <img src={item.imageUrl} alt="" className="w-1/3 sm:w-1/4 "
+                                     style={{maxWidth: '185px'}}/>
                                 <div className="flex-col pl-5">
                                   <h2 className="text-theme-blue text-2xl">{item.title}</h2>
                                   <p className="font-light text-gray-400">{item.description}</p>
@@ -39,8 +42,11 @@ export default function Advantage({ data }) {
                         data[1].map((item, index) => (
                           <Fade bottom delay={500 * index}>
                             <div>
-                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-blue transform transition duration-500 hover:scale-105" style={{ height: '211px' }}>
-                                <img src={item.imageUrl} alt="" className="w-1/3" style={{ width: '185px', height: '140px' }} />
+                              <div
+                                  className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-blue transform transition duration-500 hover:scale-105"
+                                  style={{height: '211px'}}>
+                                <img src={item.imageUrl} alt="" className="w-1/3 sm:w-1/4 "
+                                     style={{maxWidth: '185px'}}/>
                                 <div className="flex-col pl-5">
                                   <h2 className="text-theme-blue text-2xl">{item.title}</h2>
                                   <p className="font-light text-gray-400">{item.description}</p>

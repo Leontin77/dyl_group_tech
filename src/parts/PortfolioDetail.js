@@ -75,10 +75,10 @@ export default function PortfolioDetail({ data }) {
                         <h1 className="text-3xl text-theme-blue font-bold mb-5">
                           Utilized technologies
                         </h1>
-                        <div className="flex flex-row ml-1">
+                        <div className="flex flex-row ml-1 flex-wrap gap-2">
                           {
                                             item.stack.map((stack) => (
-                                              <div className="mr-4 px-6 py-3 text-theme-blue border border-theme-blue rounded-full shadow-lg">
+                                              <div className=" px-6 py-3 text-theme-blue border border-theme-blue rounded-full shadow-lg">
                                                 {stack}
                                               </div>
                                             ))
@@ -91,10 +91,10 @@ export default function PortfolioDetail({ data }) {
                           Project Responsibilities
                         </h1>
 
-                        <div className="flex flex-row ml-1">
+                        <div className="flex flex-row ml-1 flex-wrap gap-2">
                           {
                                             item.responsibility.map((responsibility) => (
-                                              <div className="mr-4 px-6 py-3 text-theme-blue border border-theme-blue rounded-full shadow-lg">
+                                              <div className=" px-6 py-3 text-theme-blue border border-theme-blue rounded-full shadow-lg">
                                                 {responsibility}
                                               </div>
                                             ))
@@ -107,7 +107,7 @@ export default function PortfolioDetail({ data }) {
                         <br />
                         Original project :
                         {' '}
-                        <Button type="link" href={item.credit} target="_blank" className="text-theme-blue" isExternal>{item.credit}</Button>
+                        <Button type="link" href={item.credit} target="_blank" className="text-theme-blue" isExternal>FUNEXCH</Button>
                       </p>
                     </Fade>
                   </div>
