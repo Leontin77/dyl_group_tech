@@ -17,7 +17,7 @@
         {
             "id": "funexch",
             "title": "Funexch",
-            "imageUrl": "assets/images/funWebsite.jpeg",
+            "imageUrl": "assets/images/funWebsite.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -36,7 +36,7 @@
         {
             "id": "funexchMobile",
             "title": "Funexch Mobile",
-            "imageUrl": "assets/images/funMob.jpeg",
+            "imageUrl": "assets/images/funMob.png",
             "type": "Mobile Apps",
             "responsibility": [
                 "Mobile Development",
@@ -55,7 +55,7 @@
         {
             "id": "shootmode",
             "title": "Shootmode",
-            "imageUrl": "assets/images/shootWebsite.jpeg",
+            "imageUrl": "assets/images/shootWebsite.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -72,7 +72,7 @@
         {
             "id": "11exch",
             "title": "11exch",
-            "imageUrl": "assets/images/elevenExch.jpeg",
+            "imageUrl": "assets/images/elevenExch.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -88,7 +88,7 @@
         {
             "id": "sina",
             "title": "Sina",
-            "imageUrl": "assets/images/sinaWeb.jpeg",
+            "imageUrl": "assets/images/sinaWeb.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -106,7 +106,7 @@
         {
             "id": "aura",
             "title": "Aura",
-            "imageUrl": "assets/images/aura.jpeg",
+            "imageUrl": "assets/images/aura.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -123,7 +123,7 @@
         {
             "id": "aws-audit",
             "title": "Aws-Audit",
-            "imageUrl": "assets/images/audit.jpeg",
+            "imageUrl": "assets/images/audit.png",
             "type": "Website",
             "responsibility": [
                 "Web Development",
